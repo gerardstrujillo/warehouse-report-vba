@@ -125,7 +125,7 @@ Sub Filter()
         If unrelatedCount > 0 Then
             MsgBox "No SAP items filtered. " & _
                    vbCrLf & vbCrLf & _
-                   "The following selected items have no relation to SAP: " & selectedWithoutRelation & "."
+                   "The following selected items have no relation to SAP: " & selectedWithoutRelation  & "."
         Else
             MsgBox "No SAP items filtered. " & _
                    vbCrLf & vbCrLf & _
